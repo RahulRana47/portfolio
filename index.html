@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/255ef7f684.js" crossorigin="anonymous"></script>
+</head>pt
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" alt="logo" class="logo" style="height: 50px; width: 150px;">
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi , I am <span> Rahul</span><br>Rana From India </h1>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ------------about section--------------- -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ranaag.jpg" alt="Rahul Rana " style="height: 400px; width: 300px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Delectus, dolorem. Ipsa, ut voluptate esse
+                          hic aliquid in libero! Deleniti exercitationem
+                           sint sunt alias qui obcaecati nesciunt
+                            aspernatur dolore, eos reiciendis.</p>
+
+                            <div class="tab-title">
+                               <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                               <p class="tab-link" onclick="opentab('Experiance')">Experiance</p>
+                               <p class="tab-link" onclick="opentab('Education')">Education </p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>designing Web/App Interfarence </li>
+                                    <li><span>Web Devlopment </span><br>Web App Devlopment </li>
+                                    <li><span>C++ programer </span><br>DSA (Data Structure And Algotithum)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experiance">
+                                <ul>
+                                    <li><span>1 year</span><br>UI/UX  designer </li>
+                                    <li><span>1 year </span><br>Web App Devloper </li>
+                                    <li><span>6 months</span><br> C++ programer (DSA)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>10th  </span><br>2019-20 <br> Govt sen. sec. school toda (pkl) haryana</li>
+                                    <li><span>12th  </span><br>2021-22 <br> Govt sen. sec. school toda (pkl) haryana </li>
+                                    <li><span>Bachelor of Engineering in Computer Science</span><br>2023-27 <br> chandigarh University (Punjab)</li>
+                                </ul>
+                            </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+<!-- ---------------------Services--------------------------- -->
+
+<div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services </h1>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Web designing</h2>
+        <p>Creating responsive and visually stunning web designs that drive engagement and functionality.
+         </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX designing</h2>
+        <p>Crafting seamless and user-centric UI/UX designs for exceptional digital experiences 
+         .</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>C++(DSA) Programing</h2>
+        <p>C++ and DSA solutions for optimized problem-solving and efficient coding
+         .</p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<!-- ----------------------------portfolio----------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work </h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="work-1.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Thia app connect you to the talented people around the world . 
+                 Downlord its from play store </p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-2.png" >
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Thia app connect you to the talented people around the world . 
+                 Downlord its from play store </p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-3.png" >
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>Thia app connect you to the talented people around the world . 
+                 Downlord its from play store </p>
+                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+</div>
+
+<!-- ---------------------contact------------------------- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rahulrajput332616@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9996332616</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100043198703132"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/rahulchauhan474"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/rahul_rana_4747/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-rana-078a67289/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail " required>
+                <textarea name="Message" rows="6" placeholder="Your Massege"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Rahul Rana Made With <i class="fa-solid fa-heart"></i> Love </p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+ <script>
+
+    var sidemenu = document.getElementById('slidemenu');
+ 
+    function openmenu(){
+       sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby-IwQtYDmilh6PuyexA4dLvGrSSoQRZm6x_jlsq4H14ebJkc0S_beBjlTMyVj-EKQQ-Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Massege sent Sucessfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
